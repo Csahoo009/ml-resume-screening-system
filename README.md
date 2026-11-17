@@ -4,6 +4,12 @@ An enterprise-grade, end-to-end Machine Learning pipeline and full-stack recruit
 
 ---
 
+## 🖥️ Interactive Recruiter Dashboard UI
+
+![Recruiter Dashboard](artifacts/dashboard_preview.png)
+
+---
+
 ## 🌟 Key Features
 
 1. **Robust Data Preprocessing & Dimensionality Reduction**:
@@ -46,6 +52,18 @@ An enterprise-grade, end-to-end Machine Learning pipeline and full-stack recruit
 6. **Integrated Full-Stack Application**:
    - **FastAPI Backend**: REST endpoints for single/batch prediction, metrics, clusters, and leaderboard.
    - **Streamlit Recruiter Dashboard**: Multi-tab UI featuring single candidate evaluator, batch CSV screening, talent cluster explorer, and model analytics.
+
+---
+
+## 📊 Model Evaluation & Analytics
+
+| 11-Model Classification Benchmark | Best Model (MLP) Confusion Matrix |
+| :---: | :---: |
+| ![Model Benchmark](artifacts/model_comparison.png) | ![Confusion Matrix](artifacts/confusion_matrix_best.png) |
+
+| 5-Fold Stratified Cross-Validation | Talent Pool Clusters (2D PCA) |
+| :---: | :---: |
+| ![5-Fold CV](artifacts/kfold_cv_comparison.png) | ![Talent Pools](artifacts/pca_talent_clusters.png) |
 
 ---
 
