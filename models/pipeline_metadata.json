@@ -1,0 +1,629 @@
+{
+  "best_classifier_name": "Neural Network (MLP)",
+  "best_regressor_name": "Multiple Linear Regression",
+  "classification_metrics": [
+    {
+      "model_name": "Logistic Regression",
+      "accuracy": 0.8143,
+      "precision": 0.8158,
+      "recall": 0.8113,
+      "f1_score": 0.8136,
+      "roc_auc": 0.8982,
+      "confusion_matrix": [
+        [
+          1636,
+          366
+        ],
+        [
+          377,
+          1621
+        ]
+      ]
+    },
+    {
+      "model_name": "K-Nearest Neighbors",
+      "accuracy": 0.8085,
+      "precision": 0.7947,
+      "recall": 0.8313,
+      "f1_score": 0.8126,
+      "roc_auc": 0.8796,
+      "confusion_matrix": [
+        [
+          1573,
+          429
+        ],
+        [
+          337,
+          1661
+        ]
+      ]
+    },
+    {
+      "model_name": "SVM (Linear Kernel)",
+      "accuracy": 0.8133,
+      "precision": 0.8161,
+      "recall": 0.8083,
+      "f1_score": 0.8122,
+      "roc_auc": 0.8982,
+      "confusion_matrix": [
+        [
+          1638,
+          364
+        ],
+        [
+          383,
+          1615
+        ]
+      ]
+    },
+    {
+      "model_name": "SVM (RBF Kernel)",
+      "accuracy": 0.8313,
+      "precision": 0.8101,
+      "recall": 0.8649,
+      "f1_score": 0.8366,
+      "roc_auc": 0.9139,
+      "confusion_matrix": [
+        [
+          1597,
+          405
+        ],
+        [
+          270,
+          1728
+        ]
+      ]
+    },
+    {
+      "model_name": "Naive Bayes (Gaussian)",
+      "accuracy": 0.793,
+      "precision": 0.7837,
+      "recall": 0.8088,
+      "f1_score": 0.7961,
+      "roc_auc": 0.8657,
+      "confusion_matrix": [
+        [
+          1556,
+          446
+        ],
+        [
+          382,
+          1616
+        ]
+      ]
+    },
+    {
+      "model_name": "Naive Bayes (Bernoulli)",
+      "accuracy": 0.7752,
+      "precision": 0.77,
+      "recall": 0.7843,
+      "f1_score": 0.7771,
+      "roc_auc": 0.8464,
+      "confusion_matrix": [
+        [
+          1534,
+          468
+        ],
+        [
+          431,
+          1567
+        ]
+      ]
+    },
+    {
+      "model_name": "Naive Bayes (Multinomial)",
+      "accuracy": 0.7568,
+      "precision": 0.7398,
+      "recall": 0.7913,
+      "f1_score": 0.7647,
+      "roc_auc": 0.8238,
+      "confusion_matrix": [
+        [
+          1446,
+          556
+        ],
+        [
+          417,
+          1581
+        ]
+      ]
+    },
+    {
+      "model_name": "Decision Tree (Gini)",
+      "accuracy": 0.7937,
+      "precision": 0.7846,
+      "recall": 0.8093,
+      "f1_score": 0.7967,
+      "roc_auc": 0.844,
+      "confusion_matrix": [
+        [
+          1558,
+          444
+        ],
+        [
+          381,
+          1617
+        ]
+      ]
+    },
+    {
+      "model_name": "Decision Tree (Entropy)",
+      "accuracy": 0.7808,
+      "precision": 0.7673,
+      "recall": 0.8053,
+      "f1_score": 0.7858,
+      "roc_auc": 0.8427,
+      "confusion_matrix": [
+        [
+          1514,
+          488
+        ],
+        [
+          389,
+          1609
+        ]
+      ]
+    },
+    {
+      "model_name": "Random Forest",
+      "accuracy": 0.8297,
+      "precision": 0.7862,
+      "recall": 0.9054,
+      "f1_score": 0.8416,
+      "roc_auc": 0.9177,
+      "confusion_matrix": [
+        [
+          1510,
+          492
+        ],
+        [
+          189,
+          1809
+        ]
+      ]
+    },
+    {
+      "model_name": "Neural Network (MLP)",
+      "accuracy": 0.8438,
+      "precision": 0.8296,
+      "recall": 0.8649,
+      "f1_score": 0.8469,
+      "roc_auc": 0.9274,
+      "confusion_matrix": [
+        [
+          1647,
+          355
+        ],
+        [
+          270,
+          1728
+        ]
+      ]
+    }
+  ],
+  "cv_summary": {
+    "Logistic Regression": {
+      "cv_accuracy_mean": 0.8084,
+      "cv_accuracy_std": 0.0081,
+      "cv_f1_mean": 0.8079,
+      "cv_f1_std": 0.0078,
+      "cv_precision_mean": 0.8094,
+      "cv_recall_mean": 0.8067,
+      "cv_auc_mean": 0.8952
+    },
+    "K-Nearest Neighbors": {
+      "cv_accuracy_mean": 0.8008,
+      "cv_accuracy_std": 0.0061,
+      "cv_f1_mean": 0.8057,
+      "cv_f1_std": 0.004,
+      "cv_precision_mean": 0.7862,
+      "cv_recall_mean": 0.8266,
+      "cv_auc_mean": 0.877
+    },
+    "SVM (Linear Kernel)": {
+      "cv_accuracy_mean": 0.8082,
+      "cv_accuracy_std": 0.0079,
+      "cv_f1_mean": 0.8079,
+      "cv_f1_std": 0.0075,
+      "cv_precision_mean": 0.8089,
+      "cv_recall_mean": 0.8072,
+      "cv_auc_mean": 0.8953
+    },
+    "SVM (RBF Kernel)": {
+      "cv_accuracy_mean": 0.8375,
+      "cv_accuracy_std": 0.0066,
+      "cv_f1_mean": 0.8435,
+      "cv_f1_std": 0.006,
+      "cv_precision_mean": 0.8131,
+      "cv_recall_mean": 0.8764,
+      "cv_auc_mean": 0.9175
+    },
+    "Naive Bayes (Gaussian)": {
+      "cv_accuracy_mean": 0.7888,
+      "cv_accuracy_std": 0.0057,
+      "cv_f1_mean": 0.792,
+      "cv_f1_std": 0.0054,
+      "cv_precision_mean": 0.7798,
+      "cv_recall_mean": 0.8049,
+      "cv_auc_mean": 0.8637
+    },
+    "Naive Bayes (Bernoulli)": {
+      "cv_accuracy_mean": 0.7703,
+      "cv_accuracy_std": 0.0055,
+      "cv_f1_mean": 0.7717,
+      "cv_f1_std": 0.0042,
+      "cv_precision_mean": 0.7665,
+      "cv_recall_mean": 0.7772,
+      "cv_auc_mean": 0.8452
+    },
+    "Naive Bayes (Multinomial)": {
+      "cv_accuracy_mean": 0.7556,
+      "cv_accuracy_std": 0.0078,
+      "cv_f1_mean": 0.7629,
+      "cv_f1_std": 0.0063,
+      "cv_precision_mean": 0.7404,
+      "cv_recall_mean": 0.7872,
+      "cv_auc_mean": 0.8221
+    },
+    "Decision Tree (Gini)": {
+      "cv_accuracy_mean": 0.7854,
+      "cv_accuracy_std": 0.0045,
+      "cv_f1_mean": 0.7877,
+      "cv_f1_std": 0.0036,
+      "cv_precision_mean": 0.7792,
+      "cv_recall_mean": 0.7965,
+      "cv_auc_mean": 0.8357
+    },
+    "Decision Tree (Entropy)": {
+      "cv_accuracy_mean": 0.7922,
+      "cv_accuracy_std": 0.0046,
+      "cv_f1_mean": 0.7959,
+      "cv_f1_std": 0.0063,
+      "cv_precision_mean": 0.7813,
+      "cv_recall_mean": 0.8112,
+      "cv_auc_mean": 0.8456
+    },
+    "Random Forest": {
+      "cv_accuracy_mean": 0.8304,
+      "cv_accuracy_std": 0.0044,
+      "cv_f1_mean": 0.843,
+      "cv_f1_std": 0.0038,
+      "cv_precision_mean": 0.7844,
+      "cv_recall_mean": 0.9113,
+      "cv_auc_mean": 0.9173
+    },
+    "Neural Network (MLP)": {
+      "cv_accuracy_mean": 0.8392,
+      "cv_accuracy_std": 0.0061,
+      "cv_f1_mean": 0.8432,
+      "cv_f1_std": 0.0061,
+      "cv_precision_mean": 0.8221,
+      "cv_recall_mean": 0.8657,
+      "cv_auc_mean": 0.9238
+    }
+  },
+  "bootstrap_confidence_intervals": {
+    "Logistic Regression": {
+      "accuracy_mean": 0.8136,
+      "accuracy_ci_95": [
+        0.8039,
+        0.8246
+      ],
+      "f1_mean": 0.8131,
+      "f1_ci_95": [
+        0.8023,
+        0.8248
+      ]
+    },
+    "K-Nearest Neighbors": {
+      "accuracy_mean": 0.8089,
+      "accuracy_ci_95": [
+        0.7973,
+        0.8206
+      ],
+      "f1_mean": 0.8134,
+      "f1_ci_95": [
+        0.8033,
+        0.825
+      ]
+    },
+    "SVM (Linear Kernel)": {
+      "accuracy_mean": 0.8126,
+      "accuracy_ci_95": [
+        0.802,
+        0.8236
+      ],
+      "f1_mean": 0.8117,
+      "f1_ci_95": [
+        0.7999,
+        0.823
+      ]
+    },
+    "SVM (RBF Kernel)": {
+      "accuracy_mean": 0.8312,
+      "accuracy_ci_95": [
+        0.8209,
+        0.8426
+      ],
+      "f1_mean": 0.8367,
+      "f1_ci_95": [
+        0.8252,
+        0.8476
+      ]
+    },
+    "Naive Bayes (Gaussian)": {
+      "accuracy_mean": 0.7935,
+      "accuracy_ci_95": [
+        0.7822,
+        0.8048
+      ],
+      "f1_mean": 0.7969,
+      "f1_ci_95": [
+        0.7851,
+        0.8099
+      ]
+    },
+    "Naive Bayes (Bernoulli)": {
+      "accuracy_mean": 0.7755,
+      "accuracy_ci_95": [
+        0.7624,
+        0.7871
+      ],
+      "f1_mean": 0.7776,
+      "f1_ci_95": [
+        0.7659,
+        0.7904
+      ]
+    },
+    "Naive Bayes (Multinomial)": {
+      "accuracy_mean": 0.7574,
+      "accuracy_ci_95": [
+        0.7449,
+        0.771
+      ],
+      "f1_mean": 0.7656,
+      "f1_ci_95": [
+        0.7524,
+        0.7797
+      ]
+    },
+    "Decision Tree (Gini)": {
+      "accuracy_mean": 0.7941,
+      "accuracy_ci_95": [
+        0.7827,
+        0.8063
+      ],
+      "f1_mean": 0.7973,
+      "f1_ci_95": [
+        0.7838,
+        0.8108
+      ]
+    },
+    "Decision Tree (Entropy)": {
+      "accuracy_mean": 0.7805,
+      "accuracy_ci_95": [
+        0.7675,
+        0.7936
+      ],
+      "f1_mean": 0.7858,
+      "f1_ci_95": [
+        0.7727,
+        0.7997
+      ]
+    },
+    "Random Forest": {
+      "accuracy_mean": 0.8306,
+      "accuracy_ci_95": [
+        0.8214,
+        0.8413
+      ],
+      "f1_mean": 0.8425,
+      "f1_ci_95": [
+        0.8347,
+        0.8526
+      ]
+    },
+    "Neural Network (MLP)": {
+      "accuracy_mean": 0.8437,
+      "accuracy_ci_95": [
+        0.8337,
+        0.8573
+      ],
+      "f1_mean": 0.8471,
+      "f1_ci_95": [
+        0.836,
+        0.8594
+      ]
+    }
+  },
+  "regression_metrics": [
+    {
+      "model_name": "Multiple Linear Regression",
+      "mse": 0.0,
+      "rmse": 0.0,
+      "mae": 0.0,
+      "r2_score": 1.0
+    },
+    {
+      "model_name": "Ridge Regression",
+      "mse": 0.0,
+      "rmse": 0.0011,
+      "mae": 0.0009,
+      "r2_score": 1.0
+    },
+    {
+      "model_name": "Random Forest Regressor",
+      "mse": 1.6448,
+      "rmse": 1.2825,
+      "mae": 0.9527,
+      "r2_score": 0.9624
+    }
+  ],
+  "clustering_evaluation": {
+    "k_values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "inertias": [
+      65787.85375207102,
+      63141.53702559115,
+      61404.054854379996,
+      59960.84549412969,
+      58947.071677092295,
+      57757.27806316409
+    ],
+    "kmeans_silhouette": [
+      0.10938424040646358,
+      0.09687859548676941,
+      0.05580080519750877,
+      0.07395044342792238,
+      0.04829848249878347,
+      0.050601792554627704
+    ],
+    "hierarchical_silhouette": [
+      0.09177262880526348,
+      0.07301887326805705,
+      0.0733794971919067,
+      0.055462881661833746,
+      0.04653951312152005,
+      0.04148664313189919
+    ]
+  },
+  "cluster_profiles": {
+    "0": {
+      "cluster_id": 0,
+      "persona_name": "Specialized Engineering Experts",
+      "size": 2262,
+      "percentage": 14.14,
+      "avg_experience_years": 17.29,
+      "avg_technical_score": 67.25,
+      "avg_interview_score": 69.85,
+      "avg_ats_score": 65.06,
+      "avg_salary": 184848.81,
+      "top_roles": {
+        "Machine Learning Engineer": 170,
+        "Frontend Developer": 163,
+        "UI UX Designer": 162
+      }
+    },
+    "1": {
+      "cluster_id": 1,
+      "persona_name": "Senior Technical Leaders",
+      "size": 5084,
+      "percentage": 31.77,
+      "avg_experience_years": 27.2,
+      "avg_technical_score": 67.82,
+      "avg_interview_score": 69.51,
+      "avg_ats_score": 49.32,
+      "avg_salary": 247241.54,
+      "top_roles": {
+        "AI Engineer": 385,
+        "DevOps Engineer": 361,
+        "Full Stack Developer": 359
+      }
+    },
+    "2": {
+      "cluster_id": 2,
+      "persona_name": "Emerging High-Potential Talent",
+      "size": 4004,
+      "percentage": 25.02,
+      "avg_experience_years": 3.61,
+      "avg_technical_score": 67.14,
+      "avg_interview_score": 69.55,
+      "avg_ats_score": 51.11,
+      "avg_salary": 98645.6,
+      "top_roles": {
+        "Frontend Developer": 299,
+        "QA Engineer": 292,
+        "UI UX Designer": 280
+      }
+    },
+    "3": {
+      "cluster_id": 3,
+      "persona_name": "Core Delivery Contributors",
+      "size": 4650,
+      "percentage": 29.06,
+      "avg_experience_years": 13.63,
+      "avg_technical_score": 67.27,
+      "avg_interview_score": 69.3,
+      "avg_ats_score": 46.85,
+      "avg_salary": 161687.1,
+      "top_roles": {
+        "Data Scientist": 350,
+        "Cyber Security Analyst": 343,
+        "Software Engineer": 324
+      }
+    }
+  },
+  "pca_explained_variance_sum": 0.7593424712463096,
+  "feature_count": 63,
+  "feature_names": [
+    "age",
+    "cgpa",
+    "graduation_year",
+    "experience_years",
+    "projects_completed",
+    "publications",
+    "communication_score",
+    "problem_solving_score",
+    "technical_test_score",
+    "interview_score",
+    "aptitude_score",
+    "expected_salary",
+    "resume_quality_score",
+    "resume_length",
+    "keyword_match_percentage",
+    "ats_score",
+    "skills_count",
+    "has_certifications",
+    "has_previous_company",
+    "highest_education_encoded",
+    "job_role_AI Engineer",
+    "job_role_Backend Developer",
+    "job_role_Business Analyst",
+    "job_role_Cloud Engineer",
+    "job_role_Cyber Security Analyst",
+    "job_role_Data Scientist",
+    "job_role_Database Administrator",
+    "job_role_DevOps Engineer",
+    "job_role_Frontend Developer",
+    "job_role_Full Stack Developer",
+    "job_role_Machine Learning Engineer",
+    "job_role_Mobile App Developer",
+    "job_role_QA Engineer",
+    "job_role_Software Engineer",
+    "job_role_UI UX Designer",
+    "employment_type_Contract",
+    "employment_type_Full-Time",
+    "employment_type_Internship",
+    "employment_type_Part-Time",
+    "gender_Female",
+    "gender_Male",
+    "gender_Other",
+    "field_of_study_Artificial Intelligence",
+    "field_of_study_Computer Science",
+    "field_of_study_Cyber Security",
+    "field_of_study_Data Science",
+    "field_of_study_Electrical Engineering",
+    "field_of_study_Information Systems",
+    "field_of_study_Information Technology",
+    "field_of_study_Mathematics & Statistics",
+    "field_of_study_Software Engineering",
+    "remote_preference_Hybrid",
+    "remote_preference_On-site",
+    "remote_preference_Remote",
+    "availability_15 Days",
+    "availability_30 Days",
+    "availability_60 Days",
+    "availability_90 Days",
+    "availability_Immediate",
+    "internship_experience_No",
+    "internship_experience_Yes",
+    "leadership_experience_No",
+    "leadership_experience_Yes"
+  ]
+}
