@@ -112,7 +112,7 @@ with st.sidebar:
         st.warning(f"Weights sum: {total_w:.2f} (normalized dynamically)")
         
     st.markdown("---")
-    st.caption("Project: 5th Sem ML/DA Autonomous Pipeline")
+    st.caption("5th Semester ML & Data Analytics Project")
 
 # ==========================================
 # HEADER
@@ -120,8 +120,8 @@ with st.sidebar:
 st.title("🎯 AI Resume Screening & Candidate Ranking System")
 st.markdown(
     """
-    An enterprise end-to-end recruitment intelligence system featuring **supervised classification** (Yes/No screening),
-    **continuous suitability regression**, **unsupervised talent pool clustering**, and **multi-attribute leaderboard ranking**.
+    A machine learning platform for automated resume screening, candidate suitability scoring, 
+    unsupervised talent pool segmentation, and multi-criteria applicant ranking.
     """
 )
 
